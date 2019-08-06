@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Buns.ReportPortal" Version="1.0.1" />
+    <PackageReference Include="Cake.Core" Version="0.34.1" />
+  </ItemGroup>
+
+</Project>
