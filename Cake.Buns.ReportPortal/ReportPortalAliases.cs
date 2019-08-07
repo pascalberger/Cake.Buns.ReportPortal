@@ -111,8 +111,8 @@ namespace Cake.Buns.ReportPortal
             Service service,
             FilterOption filter,
             CleanOptions cleanOptions,
-            MergeOptions mergeOptions,
-            bool debug)
+            MergeOptions mergeOptions = null,
+            bool debug = true)
         {
             var cleaner = new ForciblyTerminatingLaunchCleaner(
                  new LaunchCleaner(service, cleanOptions),
