@@ -1,11 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Cake extension for cleaning and merging ReportPortal launches.</Description>
+    <PackageProjectUrl>https://github.com/OlegYanushkevich/Cake.Buns.ReportPortal</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OlegYanushkevich/Cake.Buns.ReportPortal</RepositoryUrl>
+    <PackageTags>ReportPortal Cake Merging Cleaning</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Buns.ReportPortal" Version="1.0.1" />
+    <PackageReference Include="Buns.ReportPortal" Version="1.0.2" />
     <PackageReference Include="Cake.Core" Version="0.34.1" />
   </ItemGroup>
 
