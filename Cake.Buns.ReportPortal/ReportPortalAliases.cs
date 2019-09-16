@@ -7,7 +7,6 @@ using ReportPortal.Buns.Merge.Smart;
 using ReportPortal.Client;
 using ReportPortal.Client.Filtering;
 using ReportPortal.Client.Models;
-using ReportPortal.Customization.Merge;
 using System.Threading.Tasks;
 
 using LogLevel = Cake.Core.Diagnostics.LogLevel;
