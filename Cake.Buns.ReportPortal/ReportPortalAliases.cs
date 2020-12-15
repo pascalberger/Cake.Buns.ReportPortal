@@ -13,6 +13,7 @@ using LogLevel = Cake.Core.Diagnostics.LogLevel;
 
 namespace Cake.Buns.ReportPortal
 {
+    [CakeAliasCategory("Report Portal")]
     [CakeNamespaceImport("ReportPortal.Buns.Clean")]
     [CakeNamespaceImport("ReportPortal.Buns.Merge")]
     [CakeNamespaceImport("ReportPortal.Buns.Merge.Smart")]
